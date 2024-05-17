@@ -1,9 +1,20 @@
-# minOperations Function
+# Minimum Operations
 
-## Overview
+This directory contains Python code to solve the "Minimum Operations" problem.
 
-The `minOperations` function calculates the minimum number of operations needed to produce exactly `n` "H" characters in a file. The operations considered are:
-1. **Copy All**: Copies all the characters currently in the file.
-2. **Paste**: Pastes the characters copied last time.
+## Problem Description
 
-This problem is commonly referred to in computational problems related to dynamic programming and optimization.
+In a text file, there is a single character H. Your text editor can execute only two operations in this file: Copy All and Paste. Given a number n, you need to write a method that calculates the fewest number of operations needed to result in exactly n H characters in the file.
+
+## File Structure
+
+- `0-minoperations.py`: Contains the Python implementation of the method `minOperations(n)` which calculates the minimum number of operations required to reach the desired number of characters.
+- `0-main.py`: Main file for testing the `minOperations` method with sample test cases.
+
+## Usage
+
+To test the implementation, run the `0-main.py` script:
+
+```bash
+$ python3 0-main.py
+
